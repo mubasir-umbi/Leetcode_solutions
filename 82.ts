@@ -1,14 +1,19 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
- */
+//82. Remove Duplicates from Sorted List II
+//----------------------------------------------------
+
+
+
+
+ //Definition for singly-linked list.
+ class ListNode {
+    val: number
+     next: ListNode | null
+     constructor(val?: number, next?: ListNode | null) {
+         this.val = (val===undefined ? 0 : val)
+         this.next = (next===undefined ? null : next)
+     }
+ }
+ 
 
 /**
  * Function to delete nodes with duplicates, leaving only one occurrence of each unique value.
