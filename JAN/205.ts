@@ -8,6 +8,7 @@
  * @param t The second input string.
  * @returns True if the strings are isomorphic, false otherwise.
  */
+
 function isIsomorphic(s: string, t: string): boolean {
     const memo1: {[key: string]: string} = {};
     const memo2: {[key: string]: string} = {};

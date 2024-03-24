@@ -32,14 +32,14 @@ function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): Li
         }
 
         // Move curA to the next node if it exists, otherwise reset it to the head of the first list
-        if (curA.next != null) {
-            curA = curA.next;
-        } else {
-            curA = headA;
+        // if (curA.next != null) {
+        //     curA = curA.next;
+        // } else {
+        //     curA = headA;
 
-            // Move curB to the next node in the second linked list
-            curB = curB.next;
-        }
+        //     // Move curB to the next node in the second linked list
+        //     curB = curB.next;
+        // }
     }
 
     // If no intersection is found, return null
